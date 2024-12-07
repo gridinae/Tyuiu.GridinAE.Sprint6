@@ -9,6 +9,6 @@ public class DataServiceTest
     public void TestGetMassFunction()
     {
         var ds = new DataService();
-        Assert.AreEqual(-6.162, ds.GetMassFunction(-10, 10)[4]);
+        Assert.AreEqual(-6.162 ds.GetMassFunction(-10, 10)[4]);
     }
 }

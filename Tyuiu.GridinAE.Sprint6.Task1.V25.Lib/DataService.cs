@@ -18,7 +18,7 @@ public class DataService : ISprint6Task1V25
         var ret = new double[stopValue - startValue + 1];
         for (int i = 0; i <= stopValue - startValue; i++)
         {
-            ret[i] = Math.Round(F(i + startValue), 3);
+            ret[i] = Math.Round(F(i + startValue), 2);
         }
 
         return ret;
