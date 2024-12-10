@@ -17,6 +17,6 @@ public class DataService : ISprint6Task6V28
                     ret += $" {line.Split(' ')[^2]}";
             }
         }
-        return ret;
+        return ret[1..];
     }
 }
