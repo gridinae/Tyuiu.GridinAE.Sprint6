@@ -53,11 +53,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.GridinAE.Sprint6.Task
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task6", "Task6", "{C9AE26A6-AB26-4275-8E01-A4913300378B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GridinAE.Sprint6.Task6.V28.Lib", "Tyuiu.GridinAE.Sprint6.Task6.V28.Lib\Tyuiu.GridinAE.Sprint6.Task6.V28.Lib.csproj", "{A3343BE5-A3FC-4B9E-9E9F-3A70E5991BEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.GridinAE.Sprint6.Task6.V28.Lib", "Tyuiu.GridinAE.Sprint6.Task6.V28.Lib\Tyuiu.GridinAE.Sprint6.Task6.V28.Lib.csproj", "{A3343BE5-A3FC-4B9E-9E9F-3A70E5991BEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GridinAE.Sprint6.Task6.V28.Test", "Tyuiu.GridinAE.Sprint6.Task6.V28.Test\Tyuiu.GridinAE.Sprint6.Task6.V28.Test.csproj", "{AC2544D2-3BFE-417F-81A9-BEDF196257B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.GridinAE.Sprint6.Task6.V28.Test", "Tyuiu.GridinAE.Sprint6.Task6.V28.Test\Tyuiu.GridinAE.Sprint6.Task6.V28.Test.csproj", "{AC2544D2-3BFE-417F-81A9-BEDF196257B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GridinAE.Sprint6.Task6.V28", "Tyuiu.GridinAE.Sprint6.Task6.V28\Tyuiu.GridinAE.Sprint6.Task6.V28.csproj", "{CC416C51-B482-46B8-9A75-EB7EE633F9BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.GridinAE.Sprint6.Task6.V28", "Tyuiu.GridinAE.Sprint6.Task6.V28\Tyuiu.GridinAE.Sprint6.Task6.V28.csproj", "{CC416C51-B482-46B8-9A75-EB7EE633F9BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

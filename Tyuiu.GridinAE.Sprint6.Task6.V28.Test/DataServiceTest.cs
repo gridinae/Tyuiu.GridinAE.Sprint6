@@ -10,6 +10,6 @@ public class DataServiceTest
     {
         var dataService = new DataService();
         var path = @"C:\Users\user\Desktop\InPutDataFileTask6V28.txt";
-        Assert.AreEqual("wFrlYaZtHI", dataService.CollectTextFromFile("", path).Split(' ')[1]);
+        Assert.AreEqual("wFrlYaZtHI", dataService.CollectTextFromFile(path).Split(' ')[1]);
     }
 }

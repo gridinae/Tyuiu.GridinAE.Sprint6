@@ -23,7 +23,7 @@ public partial class FormMain : Form
 
     private void buttonExecute_GAE_Click(object sender, EventArgs e)
     {
-        textBoxOut_GAE.Text = ds.CollectTextFromFile("", openFilePath);
+        textBoxOut_GAE.Text = ds.CollectTextFromFile(openFilePath);
     }
 
     private void buttonHelp_GAE_Click(object sender, EventArgs e)
