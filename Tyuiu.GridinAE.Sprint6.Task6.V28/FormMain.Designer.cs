@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             panelButtons_GAE = new Panel();
             buttonHelp_GAE = new Button();
@@ -41,6 +42,7 @@
             labelOutput_GAE = new Label();
             textBoxOut_GAE = new TextBox();
             openFileDialogTask_GAE = new OpenFileDialog();
+            toolTip_GAE = new ToolTip(components);
             panelButtons_GAE.SuspendLayout();
             groupBoxTask_GAE.SuspendLayout();
             SuspendLayout();
@@ -68,6 +70,7 @@
             buttonHelp_GAE.Name = "buttonHelp_GAE";
             buttonHelp_GAE.Size = new Size(90, 70);
             buttonHelp_GAE.TabIndex = 2;
+            toolTip_GAE.SetToolTip(buttonHelp_GAE, "О программе");
             buttonHelp_GAE.UseVisualStyleBackColor = true;
             buttonHelp_GAE.Click += buttonHelp_GAE_Click;
             // 
@@ -80,6 +83,7 @@
             buttonExecute_GAE.Name = "buttonExecute_GAE";
             buttonExecute_GAE.Size = new Size(90, 70);
             buttonExecute_GAE.TabIndex = 1;
+            toolTip_GAE.SetToolTip(buttonExecute_GAE, "Выполнить");
             buttonExecute_GAE.UseVisualStyleBackColor = true;
             buttonExecute_GAE.Click += buttonExecute_GAE_Click;
             // 
@@ -91,6 +95,7 @@
             buttonOpenFile_GAE.Name = "buttonOpenFile_GAE";
             buttonOpenFile_GAE.Size = new Size(90, 70);
             buttonOpenFile_GAE.TabIndex = 0;
+            toolTip_GAE.SetToolTip(buttonOpenFile_GAE, "Открыть файл\r\nВыберите нужный файл для обработки");
             buttonOpenFile_GAE.UseVisualStyleBackColor = true;
             buttonOpenFile_GAE.Click += buttonOpenFile_GAE_Click;
             // 
@@ -170,6 +175,11 @@
             // 
             openFileDialogTask_GAE.FileName = "InPutDataFileTask6V28.txt";
             // 
+            // toolTip_GAE
+            // 
+            toolTip_GAE.ToolTipIcon = ToolTipIcon.Info;
+            toolTip_GAE.ToolTipTitle = "Подсказка";
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -207,5 +217,6 @@
         private Label labelOutput_GAE;
         private TextBox textBoxOut_GAE;
         private OpenFileDialog openFileDialogTask_GAE;
+        private ToolTip toolTip_GAE;
     }
 }
