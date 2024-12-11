@@ -26,7 +26,7 @@ public class DataService : ISprint6Task7V3
             }
         }
 
-        return arrayValues;
+        return GetMatrix(arrayValues);
     }
 
     public int[,] GetMatrix(int[,] matrix)
